@@ -13,12 +13,6 @@ To launch the leaderboard app, simply run the following command in your terminal
 
 - **streamlit run leaderboard_app.py
 
-## Customization
-You can easily customize the leaderboard by modifying the following sections in the code:
-
-Data: Change the values in the data dictionary to reflect your teams and their scores.
-Design: The gameboard style is controlled via the CSS section. Feel free to tweak the colors, fonts, or layout to suit your style.
-
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. We appreciate all contributions!
 
