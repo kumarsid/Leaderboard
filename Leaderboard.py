@@ -84,9 +84,9 @@ st.markdown('<h1 class="title">🏆 SWL Python Training Leaderboard 🏆</h1>', 
 
 # Leaderboard data
 data = {
-    'Rank': [1, 1, 3, 3],
+    'Rank': [2, 1, 3, 3],
     'Team': ['SWL Critical Creators', 'ByteMe', 'Ummmm', 'SNL'],
-    'Points': [8, 8, 2, 2],
+    'Points': [8, 1,000,008, 2, 2],
     'Last Updated': [datetime.now().strftime("%Y-%m-%d")] * 4
 }
 
