@@ -91,7 +91,10 @@ data = {
 }
 
 # Create DataFrame
-df = pd.DataFrame(data)
+df_unsorted = pd.DataFrame(data)
+
+# Sort DataFrame by 'Points' in descending order
+df = df_unsorted.sort_values(by='Points', ascending=False)
 
 # Add trophies based on rank
 def get_trophy(rank):
